@@ -1,9 +1,14 @@
 p {
 	color: green;
-	text-decoration: none;
+	font-family: Courier;
 }
 
 span {
 	color: blue;
 	font-family: cursive;
+	background-color: yellow;
+}
+
+h3 {
+	color:red;
 }
