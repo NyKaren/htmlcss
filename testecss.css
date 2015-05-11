@@ -1,10 +1,15 @@
 p {
 	color: green;
-	font-family: Garamond;
+	font-family: Courier;
 	font-size: 24px;
 }
 
 span {
 	color: blue;
 	font-family: cursive;
+	background-color: yellow;
+}
+
+h3 {
+	color: red;
 }
