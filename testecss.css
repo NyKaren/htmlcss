@@ -11,10 +11,27 @@ p {
 }*/
 
 h3 {
-	color: red;
+	color: #FFC125;
 	font-family: Courier;
 }
 
 h1 {
 	font-family: Verdana;
+	color: #8B1C62;
+}
+
+h2 {
+	color: #FF7256;
+}
+
+h4 {
+	color: #54FF9F;
+}
+
+h5 {
+	color: #530EE8;
+}
+
+h6 {
+	color: #8B668B;
 }
