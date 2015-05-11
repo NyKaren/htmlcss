@@ -12,16 +12,16 @@ p {
 
 h3 {
 	color: #FFC125;
-	font-family: Cursive;
+	font-family: Vivaldi, Cursive;
 }
 
 h1 {
-	font-family: Serif, Verdana;
+	font-family: Times, Serif, Verdana;
 	color: #8B1C62;
 }
 
 h2 {
-	font-family?: Sans-serif;
+	font-family?: Verdana, Sans-serif;
 	color: #FF7256;
 }
 
