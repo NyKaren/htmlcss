@@ -52,3 +52,8 @@ td {
 table {
  border: 1px solid black;   
 }
+
+a  {
+ color: #cc0000;
+ text-decoration: none;
+}
