@@ -79,3 +79,7 @@ span {
 	font-size: 18px;
 	color: #ffffff;
 }
+
+div h3 {
+	color: red;
+}
