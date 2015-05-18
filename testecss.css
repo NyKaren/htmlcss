@@ -198,6 +198,7 @@ div {
 /*block (bloco): Este faz do elemento um bloco. 
 Ele não vai deixar que nada fique próximo dele! 
 Ele usa toda a largura da página.*/
+
 /*Margem, se não, 'auto', ficará no centro. Distância entre paradas*/
 #one {
 	background-color: #FF0000;
@@ -209,6 +210,7 @@ Ele usa toda a largura da página.*/
 Este faz do elemento um bloco, 
 mas ele permite que outros elementos fiquem próximos a ele
  na mesma linha.*/
+
  /*padding é a distância da borda pro centro, onde se escreve*/
 #two {
 	background-color: #0000FF;
@@ -221,6 +223,7 @@ mas ele permite que outros elementos fiquem próximos a ele
 Ele só usa a largura que lhe é necessária (e não toda a linha).
 Ou seja, coloca todos os seus elementos próximos uns dos outros,
  mas não como blocos: eles não mantêm suas dimensões.*/
+
  /*Com float, ele flutua, um flutua sobre o outro em um lugar determinado*/
 #three {
 	background-color: #FFD700;
@@ -231,6 +234,7 @@ Ou seja, coloca todos os seus elementos próximos uns dos outros,
 /*none (nenhum): Este faz o elemento e 
 seu conteúdo desaparecerem completamente da página!
 Ou seja, ele impede que a página exiba o elemento selecionado. */
+
 /*Se você passar a instrução clear: left para um elemento, ele imediatamente 
 vai se mover para baixo de todos os elementos flutuantes do lado 
 esquerdo da página; isso também serve para os elementos da direita, 
@@ -241,3 +245,12 @@ elementos flutuantes da esquerda e da direita!*/
 	display: none;
 	clear: both;
 }
+/*Se você atribuir o posicionamento relativo a um elemento e uma 
+margem superior margin-top de 10px, ele não se move dez pixels para 
+baixo com relação a uma coisa em particular — ele se move 10 pixels
+ para baixo de onde ele estaria caso fosse estático.*/
+
+ /*o posicionamento fixo fixed ancora um elemento na janela do navegador 
+ — você pode pensar nele como uma cola que prega o elemento na tela. 
+ Se você rolar a tela para cima e para baixo, o elemento fixo fica no 
+ mesmo lugar, mesmo quando os outros elementos acompanham o movimento.*/
