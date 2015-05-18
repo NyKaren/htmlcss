@@ -83,3 +83,8 @@ span {
 div h3 {
 	color: red;
 }
+
+/*Colocando borda em tudo*/
+* {
+ border: 2px dashed #3A5FCD;   
+}
