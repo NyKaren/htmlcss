@@ -98,6 +98,7 @@ div {
 	font-family: Garamond, serif;
 }
 
+/*Isso é um ID pois usa, '#'*/
 #p1 {
 	display: inline;
 	position: relative;
@@ -148,6 +149,7 @@ div {
 }
 
 /*Com opacidade 0, vira apenas um espaço vazio, com cor igual ao do background*/
+/*Isso é uma classe pois usa '.'*/
 .space {
 	opacity: 0;
 }
@@ -156,3 +158,5 @@ div {
 body > p {
  font-weight: bold;   
 }
+
+/*A ordem posterior anula a anterior!*/
