@@ -177,3 +177,12 @@ a:hover {
 a:visited {
  color: #EE9A00;   
 }
+
+/*Só modifica os primeiros de um grupo, first child*/
+p:first-child {
+ font-family: Cursive;   
+}
+/*Ou modifica o segundo, ou terceiro etc, de um grupo*/
+p:nth-child(2) {
+ font-family: Tahoma;
+}
