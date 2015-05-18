@@ -151,3 +151,8 @@ div {
 .space {
 	opacity: 0;
 }
+
+/*Só pega os parágrafos imediatos à body, só submissos a body, não dentro de outro*/
+body > p {
+ font-weight: bold;   
+}
