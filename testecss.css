@@ -198,18 +198,22 @@ div {
 /*block (bloco): Este faz do elemento um bloco. 
 Ele não vai deixar que nada fique próximo dele! 
 Ele usa toda a largura da página.*/
+/*Margem, se não, 'auto', ficará no centro. Distância entre paradas*/
 #one {
 	background-color: #FF0000;
 	display: block;
+	margin: 20px 50px 10px 5px;
 }
 
 /*inline-block (bloco em linha): 
 Este faz do elemento um bloco, 
 mas ele permite que outros elementos fiquem próximos a ele
  na mesma linha.*/
+ /*padding é a distância da borda pro centro, onde se escreve*/
 #two {
 	background-color: #0000FF;
 	display: inline-block;
+	padding: 40px;
 }
 
 /*inline (em linha): Este faz com que o elemento fique
@@ -217,15 +221,23 @@ mas ele permite que outros elementos fiquem próximos a ele
 Ele só usa a largura que lhe é necessária (e não toda a linha).
 Ou seja, coloca todos os seus elementos próximos uns dos outros,
  mas não como blocos: eles não mantêm suas dimensões.*/
+ /*Com float, ele flutua, um flutua sobre o outro em um lugar determinado*/
 #three {
 	background-color: #FFD700;
 	display: inline;
+	float: right;
 }
 
 /*none (nenhum): Este faz o elemento e 
 seu conteúdo desaparecerem completamente da página!
 Ou seja, ele impede que a página exiba o elemento selecionado. */
+/*Se você passar a instrução clear: left para um elemento, ele imediatamente 
+vai se mover para baixo de todos os elementos flutuantes do lado 
+esquerdo da página; isso também serve para os elementos da direita, 
+right. Se você disser clear: both, ele vai sair do caminho dos 
+elementos flutuantes da esquerda e da direita!*/
 #four {
 	background-color: #308014;
 	display: none;
+	clear: both;
 }
