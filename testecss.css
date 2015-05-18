@@ -159,4 +159,21 @@ body > p {
  font-weight: bold;   
 }
 
+
 /*A ordem posterior anula a anterior!*/
+
+
+/*Modificando a aparência do link com ação do mouse do cliente*/
+/*Site Normal*/
+a:link {
+ text-decoration: none;
+ color: #008B45;
+}
+/*Por passar mouse em cima do site*/
+a:hover {
+ color:#00FF00;/   
+}
+/*Depois de site ser clicado*/
+a:visited {
+ color: #EE9A00;   
+}
