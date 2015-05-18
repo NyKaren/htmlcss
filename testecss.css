@@ -186,3 +186,46 @@ p:first-child {
 p:nth-child(2) {
  font-family: Tahoma;
 }
+
+/*Teste organizando divs*/
+div {
+	height: 50px;
+	width: 100px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+/*block (bloco): Este faz do elemento um bloco. 
+Ele não vai deixar que nada fique próximo dele! 
+Ele usa toda a largura da página.*/
+#one {
+	background-color: #FF0000;
+	display: block;
+}
+
+/*inline-block (bloco em linha): 
+Este faz do elemento um bloco, 
+mas ele permite que outros elementos fiquem próximos a ele
+ na mesma linha.*/
+#two {
+	background-color: #0000FF;
+	display: inline-block;
+}
+
+/*inline (em linha): Este faz com que o elemento fique
+ na mesma linha que outro elemento, mas sem formatá-lo como um bloco. 
+Ele só usa a largura que lhe é necessária (e não toda a linha).
+Ou seja, coloca todos os seus elementos próximos uns dos outros,
+ mas não como blocos: eles não mantêm suas dimensões.*/
+#three {
+	background-color: #FFD700;
+	display: inline;
+}
+
+/*none (nenhum): Este faz o elemento e 
+seu conteúdo desaparecerem completamente da página!
+Ou seja, ele impede que a página exiba o elemento selecionado. */
+#four {
+	background-color: #308014;
+	display: none;
+}
